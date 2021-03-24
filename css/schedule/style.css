@@ -1,0 +1,65 @@
+
+.fh5co-social-icons a{
+  text-align: center;
+
+}
+.team-section-grid {
+  position: relative;
+  background-size: cover;
+  height: 450px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.team-section-grid .overlay-section {
+  position: absolute;
+  top: 0;
+  bottom: -450px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+.team-section-grid .overlay-section h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font:"Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.team-section-grid .overlay-section span {
+  display: block;
+  margin-bottom: 15px;
+}
+.team-section-grid .overlay-section p {
+  font:"Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+}
+.team-section-grid .overlay-section p.fh5co-social-icons a:hover, .team-section-grid .overlay-section p.fh5co-social-icons a:focus {
+  text-decoration: none !important;
+  font:"Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.team-section-grid .overlay-section p.fh5co-social-icons i {
+  font-size: 40px;
+  color: #fff;
+  font:"Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.team-section-grid .overlay-section span {
+  color: #fff;
+  display: block;
+}
+.team-section-grid .overlay-section .desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+}
+.team-section-grid:hover .overlay-section {
+  bottom: 0;
+  opacity: 1;
+}
+
